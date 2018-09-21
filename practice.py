@@ -31,7 +31,7 @@ def result():
         name = form.name.data
         age = form.age.data
         return "Your name is {0} and your age is {1}".format(name,age)
-    flash('All fields are required!')
+    flash('Fill everything in correctly!')
     return redirect(url_for('index'))
 
 

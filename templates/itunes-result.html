@@ -1,0 +1,7 @@
+<ul>
+    {% for r in results %}
+        <li>
+        <b>{{ r['trackName'] }}</b> <br>
+        Album: {{ r['collectionName'] }}<br><br></li>
+    {% endfor %}
+</ul>

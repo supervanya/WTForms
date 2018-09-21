@@ -1,0 +1,13 @@
+<html>
+<title>
+</title>
+<body>
+  <h1>Vanya's App # 3</h1>
+<form action="{{ url_for('itunes_result') }}" method="POST">
+    {{ form.name.label }} {{ form.name() }} <br>
+    {{ form.results_number.label }} {{ form.results_number() }}<br>
+    {{ form.email.label }} {{ form.email() }} <br>
+    {{ form.submit() }}
+  </form>
+</body>
+</html>
